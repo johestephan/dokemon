@@ -53,18 +53,12 @@ const systemNetworks = [
   "none",
   "bridge",
   "host",
-  "ingress",
-  "docker_gwbridge",
-  "docker_volumes-backup-extension-desktop-extension_default",
 ]
 
 const NETWORK_DRIVERS = [
-  { value: "bridge", label: "Bridge" },
-  { value: "host", label: "Host" },
-  { value: "overlay", label: "Overlay" },
-  { value: "macvlan", label: "Macvlan" },
-  { value: "ipvlan", label: "IPvlan" },
-  { value: "none", label: "None" },
+  { value: "bridge", label: "Bridge" }
+  //{ value: "host", label: "Host" },
+  //{ value: "none", label: "None" },
 ]
 
 export default function NetworkList() {

@@ -13,9 +13,6 @@ import (
 var validNetworkDrivers = []string{
     "bridge",
     "host",
-    "overlay",
-    "macvlan",
-    "ipvlan",
     "none",
 }
 
